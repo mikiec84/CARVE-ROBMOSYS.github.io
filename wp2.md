@@ -16,7 +16,6 @@ which will be the basis for the activities of Task2.2. The validation scenarios 
   - [Scenario 2](scenario2)
   - [Scenario 3](scenario3)
 
-<br>
 - Task 2.2 Implementation of scenarios and validation: based on existing components
 for speech recognition, SLAM, object recognition, grasping and obstacle avoidance, this
 task develops BTs and models for execution and orchestration of the components for the implementation
