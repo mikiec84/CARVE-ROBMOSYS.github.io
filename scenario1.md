@@ -16,8 +16,7 @@ The map available to the robot contains all the obstacles that the robot will en
 # Behavior Tree for Scenario 1
 The figure below shows the BT that encodes the task for Scenario 1. The BT encodes the following logic:
  
- ![](https://github.com/CARVE-ROBMOSYS/carve-robmosys.io/blob/master/img/scenario1BT.png)
-
+![scenario1BT](https://user-images.githubusercontent.com/8132627/56294629-a4548000-612b-11e9-82f0-7bbae290c2f4.png)
 - The robot first checks if it is in the kitchen. If not, it performs the action _Goto Kitchen_.
 - If the robot is in the kitchen, then it checks if the bottle is found. If not, it performs the action _Find Bottle_.
 - If the robot is in the kitchen and it found the bottle, then it checks if the bottle is grasped. If not, it does the following:
