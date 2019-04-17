@@ -31,9 +31,12 @@ navbar-links:
     - WP3 - Component-based Formal Development Approach: "wp3"
     - WP4 - Software Development: "wp4"
     - WP5 - Tool for Behavior Tree Integration and Verification: "wp5"
+  Scenarios:
+    - Scenario 1: "scenario1"    
+    - Scenario 2: "scenario2"    
+    - Scenario 3: "scenario3"
   Media: "media"
   Consortium: "consortium"
-  RobMoSys: "https://robmosys.eu/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
