@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gem "github-pages", group: :jekyll_plugins
 
-#git_source(:github) {|repo_name| "https://github.com/#{CARVE-ROBMOSYS/carve-robmosys.io}" }
+git_source(:github) {|carve-robmosys.io| "https://github.com/#{carve-robmosys.io}" }
 
 gem "minimal-mistakes-jekyll"
 
