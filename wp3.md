@@ -28,4 +28,4 @@ communication concepts onto the RobMoSys meta-model concepts. This will enable d
 to build YARP applications with the RobMoSys tools. The second objective is to formalize the
 Model-Of-Computation provided by YARP, which is (1) critical for the adoption of BT to specify
 robot behaviors in terms of orchestration of robot tasks and (2) for the correct validation of
-composition and execution in T5.
+composition and execution in Work Package 5.
