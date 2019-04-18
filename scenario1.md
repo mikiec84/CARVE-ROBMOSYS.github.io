@@ -6,7 +6,7 @@ use-site-title: true
 
 
 
-In this scenario, the robot is asked to fetch a bottle in the kitchen. 
+In this scenario, the robot is tasked to fetch a bottle in the kitchen. 
 If an action fails, the robot asks for help to a human operator. 
 The position of the kitchen is available in the blackboard. 
 The map available to the robot contains all the obstacles that the robot will encounter
