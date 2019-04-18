@@ -4,7 +4,7 @@ title: Media
 ---
 
 #	Video demonstrating YARP-SmartSoft integration
-<iframe width="600" height="315" src="http://www.youtube.com/embed/hyz7RKl_XsU" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="315" src="http://www.youtube.com/embed/hyz7RKl_XsU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 #	Video demonstrating static analysis of a correct BT with NuSMV
 
