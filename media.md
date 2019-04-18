@@ -4,13 +4,16 @@ title: Media
 ---
 
 #	Video demonstrating YARP-SmartSoft integration
-<iframe width="600" height="315" src="http://www.youtube.com/embed/hyz7RKl_XsU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="600" height="315" src="https://www.youtube.com/embed/hyz7RKl_XsU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hyz7RKl_XsU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 #	Video demonstrating static analysis of a correct BT with NuSMV
 
-<iframe width="600" height="315" src="http://www.youtube.com/embed/N0Utz-C2HwU " frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="315" src="https://www.youtube.com/embed/N0Utz-C2HwU " frameborder="0" allowfullscreen></iframe>
 #	Video demonstrating static analysis of an incorrect BT with NuSMV
-<iframe width="600" height="315" src="http://www.youtube.com/embed/v_fSNNppIE8" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="315" src="https://www.youtube.com/embed/v_fSNNppIE8" frameborder="0" allowfullscreen></iframe>
 
 #	Video demonstrating execution and runtime monitors for scenario 1 in simulation
  <iframe width="600" height="315" src="http://www.youtube.com/embed/QIl2lXeIXeM" frameborder="0" allowfullscreen></iframe>
