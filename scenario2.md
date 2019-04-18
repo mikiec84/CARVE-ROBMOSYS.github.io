@@ -12,7 +12,7 @@ The position of the kitchen is available in the blackboard.
 The map available to the robot contains all the obstacles that the robot will encounter
  (i.e. we do not consider dynamic obstacles).
  
-This scenario is an extension of the [Scenario 1](scenario1). The robot has to fetch the bottle in a room in the map
+This scenario is an extension of the [Scenario 1](../scenario1). The robot has to fetch the bottle in a room in the map
 called Destination Room. The room's location is available in the blackboard. However, the robot may initially
 not know the Destination Room. In that case, it follows a human operator. The human eventually tells to the
 robot the destination room.
@@ -25,7 +25,7 @@ The figure below shows the BT that encodes the task for Scenario 2. The BT encod
 
  - The robot first checks if the destination room is known. If not, it performs the action Follow Human.
  - If the robot knows the destination room, it checks if it is in the room. If not, it performs the action Goto Destination Room.
- - If the robot knows the destination room and the robot is in that room, the logic is the same of [Scenario 1](scenario1).
+ - If the robot knows the destination room and the robot is in that room, the logic is the same of [Scenario 1](../scenario1).
 
 # Execution of Scenario 2
 

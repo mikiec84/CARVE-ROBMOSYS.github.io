@@ -12,9 +12,9 @@ This work package is implemented by two tasks:
 assumptions and the target goals of the three validation scenarios, to allow modularity and reuse
 in behavior definition with the system level specifications for the three target applications,
 which will be the basis for the activities of Task2.2. The validation scenarios are available at the following links: 
-  - [Scenario 1](scenario1)
-  - [Scenario 2](scenario2)
-  - [Scenario 3](scenario3)
+  - [Scenario 1](../scenario1)
+  - [Scenario 2](../scenario2)
+  - [Scenario 3](../scenario3)
 
 - Task 2.2 Implementation of scenarios and validation: based on existing components
 for speech recognition, SLAM, object recognition, grasping and obstacle avoidance, this
