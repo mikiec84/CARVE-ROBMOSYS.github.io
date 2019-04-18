@@ -31,7 +31,7 @@ The figure below shows the BT that encodes the task for Scenario 1. The BT encod
 
 The video below show the execution of Scenario 1
 
-<iframe width="580" height="315" src="http://www.youtube.com/embed/-b7TeRX1uzoc" frameborder="0" allowfullscreen></iframe>
+<iframe width="580" height="315" src="http://www.youtube.com/embed/b7TeRX1uzoc" frameborder="0" allowfullscreen></iframe>
 
 
 
