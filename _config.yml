@@ -35,7 +35,6 @@ navbar-links:
     - Scenario 1: "scenario1"    
     - Scenario 2: "scenario2"    
     - Scenario 3: "scenario3"
-  Code: "code"
   Media: "media"
   Consortium: "consortium"
 
