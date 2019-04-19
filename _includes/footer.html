@@ -29,17 +29,13 @@
 		
 		<ul class="list-inline text-center footer-links">
           {%- for partner in site.consortium -%}
-            {%- assign partnername = partner[0] -%}
-            <li>
-              <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ partnername }}">
-            {%- endif -%}
-                <span class="fa-stack fa-lg" aria-hidden="true">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa {{ element.icon }} fa-stack-1x fa-inverse"></i>
-                </span>
-                <span class="sr-only">{{ element.name }}</span>
-              </a>
-            </li>
+		   {%- assign curkey = partner[1] -%}
+            {%- assign partnername = curkey.name -%}
+            {%- assign partnerlogo = curkey.logo -%}
+			{%- assign partnerlink = curkey.link -%}
+			<a href="{{ partnerlink }}"><img src="{{site.baseurl}}/{{ partnerlogo }}" style="height:50px" title="{{ partnername }}" alt="{{ partnername }}"></a>
+&nbsp;
+       
           {%- endfor -%}
         </ul>
       <p class="copyright text-muted">

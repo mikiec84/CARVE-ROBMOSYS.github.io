@@ -99,12 +99,28 @@ author:
 #  twitch: yourname
 #  yelp: yourname
 
-
 consortium:
-	iit: "IITn"
-	uni: "UNIGEn"
-	 
-
+ robmosys:
+  name: "RobMoSys"
+  logo: "/img/robmosys.png"
+  link: "https://robmosys.eu/"
+  
+ iit:
+  name: "Istituto Italiano di Technologia"
+  logo: "/img/iit.png"
+  link: "https://www.iit.it"
+ unige:
+  name: "Università degli Studi di Genova"
+  logo: "/img/unige.png"
+  link: "https://www.unige.it"
+ utrc:
+  name: "United Technologies Research Center"
+  logo: "/img/utrc.png"
+  link: "https://www.utrc.utc.com/"
+  
+  
+  
+  
 # Select which share links to show in posts
 share-links-active:
   twitter: true
