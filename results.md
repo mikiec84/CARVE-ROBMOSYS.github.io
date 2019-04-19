@@ -19,11 +19,9 @@ The resulting approach is illustrated in the figure below.
 The user designs a robot behavior using [Behavior Trees](https://en.wikipedia.org/wiki/Behavior_tree_(artificial_intelligence,_robotics_and_control) ) to orchestrate [Skills](https://robmosys.eu/wiki-sn-03/modeling:metamodels:skill-definition) 
 (as defined in [SmartSoft metamodel](https://robmosys.eu/wiki-sn-01/modeling:metamodels:start)).
 Using an automatic tool, such Behavior Tree is compiled into executable code
-using an execution engine. 
- 
-This engine is generated using the [Coq proof assistant](https://coq.inria.fr/) starting from the Behavior Tree description 
-and a well-defined operational semantic. This engine is then loaded and executed 
-as a SmartSoft component to orchestrate SmartSoft or YARP components.  
+using an execution engine. This engine is generated using the [Coq proof assistant](https://coq.inria.fr/) starting from the Behavior Tree description 
+and a well-defined operational semantic. The engine is then loaded and executed 
+as a [SmartSoft](https://www.servicerobotik-ulm.de/drupal/) component to orchestrate SmartSoft or [YARP](https://www.yarp.it) components.  
 
 We use contracts and [contract-based design](https://it.wikipedia.org/wiki/Design_by_contract) as a methodology to describe 
 skills and the use of off-the-shelf verification tools [NuSMV](http://nusmv.fbk.eu/) to statically verify 
@@ -36,14 +34,7 @@ that the properties assumed during the static verification of the Behavior Tree 
 valid at runtime, and generate an exception otherwise.
 
 We defined the three scenarios for the experimental validation of the CARVE 
-methodology and tools. In summary they involve the implementation of 
-a “fetch” behavior, in which the robot has to navigate to a given room, s
-earch for an object, pick it up and bring it back to the user (Scenario 1).
- In Scenario 2 the robot may ask the user to show the location of the room and follow him, 
- if the room is not in the map (adding a human following behavior). 
- In Scenario 3 the task involves picking up a bottle, a glass, and pouring a drink to
-  add a safety constraint to the task. These scenarios have been defined in terms of Behavior Trees.
-  
+methodology and tools. The description and the experimental validation are available for Scenario [1](../scenario1), [2](../scenario2), and [3](../scenario3).
   
   
 
@@ -72,7 +63,7 @@ Runtime monitoring is used to carry out runtime verification, i.e., ensure that 
 everything other than the BT behaves as expected. 
 
 Given the abstract models for the skills and the environment, we can verify that at runtime, the skill and the evironment behave as expected.
-Videos showing the execution of runtime monitors are in the [Media](../media#monitors) page.
+Videos showing the executions of runtime monitors are in the [Media](../media#monitors) page.
 
 
 
@@ -84,19 +75,17 @@ dedicated component that can execute the engine. We also implemented the code to
  on the R1 robot).
  
 To achieve better interoperability we also mapped the RobMoSys communication 
-patterns into their YARP equivalent. We are currently working to support 
-automatic generation of SmartSoft-YARP bridges in the form of mixed port 
-components in tight collaboration with ULM.
+patterns into their YARP equivalent.
 A video showing this integration is available in the [Media](../media#yarpss) page.
 
 
 
 # Integration with the Mood2Be ITP 
 
-We also integrated the Behavior Tree graphical editor developed by the Mood2Be ITP (Groot) 
+We also integrated the Behavior Tree graphical editor developed by the [Mood2Be ITP](https://robmosys.eu/mood2be/) (Groot) 
 so that it can be used to design a Behavior Tree compatible with the CARVE toolchain and 
 visualize the status of the execution engine. The Groot GUI has been used for 
-the development and execution of the three Scenario [1](../scenario1), [2](../scenario2), and [3](../scenario3).
+the development and execution of the Scenario [1](../scenario1), [2](../scenario2), and [3](../scenario3).
 
 
 
