@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Results
-subtitle: Dissemination and Deployment
 use-site-title: true
 ---
 
