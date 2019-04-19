@@ -25,12 +25,13 @@ description: ComposAble Robot behaViors with vErification
 
 # List of links in the navigation bar
 navbar-links:
-  Work Packages:
-    - WP1 - Dissemination and Deployment: "wp1"
-    - WP2 - Scenario Definition and Implementation: "wp2"
-    - WP3 - Component-based Formal Development Approach: "wp3"
-    - WP4 - Software Development: "wp4"
-    - WP5 - Tool for Behavior Tree Integration and Verification: "wp5"
+  Results: "results"
+#  Work Packages:
+#    - WP1 - Dissemination and Deployment: "wp1"
+#    - WP2 - Scenario Definition and Implementation: "wp2"
+#    - WP3 - Component-based Formal Development Approach: "wp3"
+#    - WP4 - Software Development: "wp4"
+#    - WP5 - Tool for Behavior Tree Integration and Verification: "wp5"
   Scenarios:
     - Scenario 1: "scenario1"    
     - Scenario 2: "scenario2"    
