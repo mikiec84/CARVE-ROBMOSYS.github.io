@@ -16,5 +16,5 @@ in compliance with the Robotic Behavior Metamodel of SmartSoft.
 
 
 - Task 4.2 Integration of YARP in SmartSoft: this task develops a port of YARP
-to SmartSoft, so that SmartSoft components can be used within the iCub ecosystem and on the R1
+to SmartSoft, so that SmartSoft components can be used on the R1
 robot. [Deliverable 4.2](https://github.com/CARVE-ROBMOSYS/Coordination/blob/master/deliverables/D4.2%20SmartSoft%20components%20for%20YARP.pdf) presents the reults obstained within this task.

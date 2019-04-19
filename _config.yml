@@ -35,6 +35,7 @@ navbar-links:
     - Scenario 1: "scenario1"    
     - Scenario 2: "scenario2"    
     - Scenario 3: "scenario3"
+  Code: "code"
   Media: "media"
   Consortium: "consortium"
 
@@ -97,6 +98,12 @@ author:
 #  steam: deanat78
 #  twitch: yourname
 #  yelp: yourname
+
+
+consortium:
+	iit: "IITn"
+	uni: "UNIGEn"
+	 
 
 # Select which share links to show in posts
 share-links-active:
