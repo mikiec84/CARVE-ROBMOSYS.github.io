@@ -13,6 +13,6 @@ formal methods with a strong academic and industrial background.
 | United Technologies Research Center | Industry (avionics, automation) Design and verification of embedded systems        |  ![image](https://user-images.githubusercontent.com/8132627/56350039-24c9be00-61ca-11e9-8123-50ba2c25025a.png) |
 
 
-Contacts:
- For additional information please contact: Lorenzo Natale lorenzo.natale _AT_ iit.it
+**Contacts**:
+ For additional information please contact Lorenzo Natale (lorenzo.natale _AT_ iit.it)
   
