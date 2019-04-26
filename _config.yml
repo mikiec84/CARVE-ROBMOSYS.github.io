@@ -105,16 +105,16 @@ author:
 consortium:
  robmosys:
   name: "RobMoSys"
-  logo: "/img/robmosys.png"
+  logo: "img/robmosys.png"
   link: "https://robmosys.eu/"
   
  iit:
   name: "Istituto Italiano di Technologia"
-  logo: "/img/iit.png"
+  logo: "./img/iit.png"
   link: "https://www.iit.it"
  unige:
   name: "Università degli Studi di Genova"
-  logo: "/img/unige.png"
+  logo: "../img/unige.png"
   link: "https://www.unige.it"
  utrc:
   name: "United Technologies Research Center"
